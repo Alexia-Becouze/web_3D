@@ -5,12 +5,12 @@
 ## Threshold 1: Add Sun / Earth
 
 For the first threshold, you are asked to simply:
-* Create the sun with a `MeshStandardMaterial` at the center of the solar system
+* Create the sun with a `MeshBasicMaterial` at the center of the solar system
 * Create a light that will be position at the sun center
 * Create the Earth orbiting around its center and around the sun
     * Use something else than a `SphereGeometry` to see the object rotating
       around its center of mass
-    * Use a material that reacts to light
+    * Use a material that reacts to light (`MeshLambertMaterial`)
 
 The goal here is to manipulate the Scene and to take advantage of
 the transform composition offered by the Scene Graph. Do not try

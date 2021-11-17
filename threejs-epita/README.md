@@ -7,6 +7,7 @@ In this repository, you will find:
 
 * [Solar System Assignment](tp-1.md)
 * [Textures & Models Assignment](tp-2.md)
+* [glTF * Post-Process Assignment](tp-3.md)
 * [Final Project](project.md)
 
 ## Installation
